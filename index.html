@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS final project</title>
+    <link rel="stylesheet" href="auth.css">
 </head>
 <body>
-    
+
+    <div id="greetings">
+        Welcome!
+        <div>
+            <button type="button" id="sign_in-btn">Sign in</button>
+            <button type="button" id="sign_up-btn">Sign up</button>
+        </div>
+    </div>
+
+    <form id="sign_up-form">
+        Registration <br>
+        <input type="" id="sign_up-email" placeholder="pick email" required>
+        <input type="password" id="sign_up-password" placeholder="pick password" required>
+        <button type="submit">Lets start!</button>
+    </form>
+
+    <form id="sign_in-form">
+        Login <br>
+        <input type="" id="sign_in-email" placeholder="wrire your email" required>
+        <input type="password" id="sign_in-password" placeholder="write your password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <script src="./auth.js"></script>
 </body>
 </html>
